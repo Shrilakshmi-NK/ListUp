@@ -17,7 +17,7 @@ app = FastAPI()
 # Without this, the browser will block requests from React to FastAPI
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://to-do-list-ggrlmz5fu-shrilakshmi-s-listup.vercel.app/"],  # React's default port
+    allow_origins=["*"],  # React's default port
     allow_credentials=True,
     allow_methods=["*"],   # Allow GET, POST, PUT, DELETE
     allow_headers=["*"],
