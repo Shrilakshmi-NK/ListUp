@@ -261,12 +261,13 @@ body.dark .filter-btn {
   background: rgba(255, 255, 255, 0.08);
   color: var(--text);
   border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: none;
 }
 
-.filter-btn:hover {
+body.dark .filter-btn:hover {
   transform: translateY(-1px);
-  background: rgba(79, 123, 255, 0.16);
-  color: #162a6a;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text);
 }
 
 .filter-btn.active {
@@ -277,9 +278,10 @@ body.dark .filter-btn {
 }
 
 body.dark .filter-btn.active {
-  background: linear-gradient(135deg, #8ca7ff, #6273ff);
+  background: rgba(99, 131, 255, 0.32);
   color: #ffffff;
   border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: none;
 }
 
 .sort-select {
