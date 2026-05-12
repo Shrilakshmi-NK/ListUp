@@ -69,6 +69,17 @@ This project is a simple task management app that allows you to:
 2. Then start the React frontend.
 3. Use the app to create, complete, edit, delete, filter, and sort your tasks.
 
+## Deployment
+
+The application is deployed on Vercel. You can access the live version at:
+
+[https://to-do-list-ggrlmz5fu-shrilakshmi-s-listup.vercel.app/](https://to-do-list-ggrlmz5fu-shrilakshmi-s-listup.vercel.app/)
+
+### Deployment Methods
+
+- **Frontend**: Deployed using Vercel from the `frontend/` directory.
+- **Backend**: The backend is not deployed separately in this setup; it runs locally or can be deployed to a platform like Heroku, Railway, or Render for production use.
+
 ## Notes
 
 - Make sure the backend server is running before using the frontend so API requests can connect successfully.
