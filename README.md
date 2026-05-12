@@ -71,14 +71,12 @@ This project is a simple task management app that allows you to:
 
 ## Deployment
 
-The application is deployed on Vercel. You can access the live version at:
-
-[https://to-do-list-ggrlmz5fu-shrilakshmi-s-listup.vercel.app/](https://to-do-list-ggrlmz5fu-shrilakshmi-s-listup.vercel.app/)
+The app is deployed on Vercel. You can access the live version at: [https://to-do-list-rouge-six-65.vercel.app/](https://to-do-list-rouge-six-65.vercel.app/)
 
 ### Deployment Methods
 
-- **Frontend**: Deployed using Vercel from the `frontend/` directory.
-- **Backend**: The backend is not deployed separately in this setup; it runs locally or can be deployed to a platform like Heroku, Railway, or Render for production use.
+- **Frontend**: Deployed using Vercel for static hosting.
+- **Backend**: The backend is currently set up for local development. For production deployment, consider platforms like Heroku, Railway, or Azure App Service.
 
 ## Notes
 
