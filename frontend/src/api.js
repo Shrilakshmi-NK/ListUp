@@ -5,7 +5,7 @@
 // ============================================================
 
 // The base URL of your FastAPI backend
-const API_URL = "http://localhost:8000";
+const API_URL = "https://listup-aufi.onrender.com";
 
 // --- Fetch all tasks from the backend ---
 export async function fetchTasks() {
