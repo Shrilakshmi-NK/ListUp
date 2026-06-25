@@ -1,4 +1,4 @@
-# To-do-list
+# ListUp
 
 A clean and colorful to-do list web app built with React, FastAPI, and SQLite.
 
